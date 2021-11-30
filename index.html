@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Markah Peperiksaan</h1>
+    
+    <table  border="1" width="1000" cellpadding="5" cellspacing="0">
+
+        <tr></tr>
+            <th>Subject</th>
+            <th>Markah</th>
+            <th>Gred</th>
+        </tr>
+        <tr>
+            <td>Bahasa Melayu</td>
+            <td text align="center">
+                <input type="number" min="0" max="100" required onchange="gred(this.value,'result1');" >
+            </td>
+            <td id="result1"></td>					
+        </tr>
+
+        <tr>
+            <td>Bahasa Melayu2</td>
+            <td text align="center">
+                <input type="number" min="0" max="100" required onchange="gred(this.value,'result2');">
+            </td>
+            <td id="result2" ></td>						
+        </tr>
+        <tr>
+            <td >Bahasa Inggeris</td>
+            <td text align="center">
+                <input type="number" min="0" max="100" required onchange="gred(this.value,'result3');">
+            </td>
+            <td id="result3"></td>						
+        </tr>
+        <tr>
+            <td >Sains</td>
+            <td text align="center">
+                <input type="number" min="0" max="100" required onchange="gred(this.value,'result4');">
+            </td>
+            <td id="result4" ></td>
+        </tr>   
+        <tr >
+            <td>Matematik</td>
+            <td text align="center">
+                <input type="number" min="0" max="100" required onchange="gred(this.value,'result5');">
+            </td>
+            <td id="result5"></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
